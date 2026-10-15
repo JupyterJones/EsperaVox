@@ -1,0 +1,18 @@
+[package]
+name = "esperavox"
+version = "0.1.0"
+edition = "2021"
+authors = ["Jack", "Esperanza"]
+description = "Native, lightweight Voxel Art Studio for Linux"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+linuxvox-core = { path = "../linuxvox-core" }
+glam = "0.29"
+eframe = { version = "0.30", default-features = true }
+rfd = "0.15"
+image = { version = "0.25", default-features = false, features = ["png", "jpeg"] }
+
+[[bin]]
+name = "esperavox"
+path = "src/main.rs"

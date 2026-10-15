@@ -1,9 +1,15 @@
+# Rust build artifacts
+/target
+**/*.rs.bk
 
-# Added by fix_git.py
-*.db
-*.sqlite
-*.sqlite3
-venv/
+# Video and rendered animation outputs
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+
+# Environment & Secrets
 .env
 .env.*
 secrets.json
@@ -11,10 +17,31 @@ config.json
 *.pem
 *.key
 *.crt
-*.bak
-*.old
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Python & Virtual Environments
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# IDEs, Editors & Tools
+.idea/
+.vscode/
 *.swp
-*.tmp
+*.swo
+*~
+
+# Operating System files
 .DS_Store
 Thumbs.db
-*.mp4
+
+# Logs & Temporary files
+*.log
+*.tmp
+*.bak
+*.old
