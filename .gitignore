@@ -4,6 +4,9 @@
 *.AppImage
 AppDir/
 
+# agy talk
+b464821b-7228-44c4-8d39-b74af559c546_transcript_full.txt
+gravity_talk.txt
 # Video and rendered animation outputs
 *.mp4
 *.avi
